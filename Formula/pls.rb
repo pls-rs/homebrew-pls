@@ -3,15 +3,15 @@
 class Pls < Formula
   desc "Prettier and powerful ls for the pros"
   homepage "https://pls.cli.rs/"
-  version "0.0.1-beta.7"
+  version "0.0.1-beta.8"
   license "GPL-3.0-or-later"
 
   if OS.mac?
-    url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.7/pls-x86_64-apple-darwin.zip"
-    sha256 "fa7e9f3f7be46a9b07b45bc95e82f48ade7a18f26e9035f55f1f79528d1b0383"
+    url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.8/pls-x86_64-apple-darwin.zip"
+    sha256 "3ad5628a70fd1ebe3ca933edd4dd59c9bcbf158aabb3e8aa671428068db9981d"
   elsif OS.linux?
-    url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.7/pls-x86_64-unknown-linux-musl.zip"
-    sha256 "27891c8864780f826d65ebf3edd73b7fe323cd8f57142dfe9f4b1520c2f0ff9f"
+    url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.8/pls-x86_64-unknown-linux-musl.zip"
+    sha256 "636d7b96c25b9d74fbb6a863fbf045e1db6501b83e14865134e794789a780961"
   end
 
   depends_on "libgit2"
