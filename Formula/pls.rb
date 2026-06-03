@@ -3,19 +3,19 @@
 class Pls < Formula
   desc "Prettier and powerful ls for the pros"
   homepage "https://pls.cli.rs/"
-  version "0.0.1-beta.12"
+  version "0.0.1-beta.13"
   license "GPL-3.0-or-later"
 
   if OS.mac?
-    url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.12/pls-universal-apple-darwin.zip"
-    sha256 "7b27ecada8687cb64e65716cd5ae286d40922cd2dcbff82810c84357e93e4e40"
+    url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.13/pls-universal-apple-darwin.zip"
+    sha256 "aba977db020171c057125f8cbddf85c27d7f1da1bfcb057b6db8cfea14030acd"
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.12/pls-aarch64-unknown-linux-musl.zip"
-      sha256 "607f82ac0563f8a76efba10884fdad71c5d71ebf666539122729f2e57a0eb18a"
+      url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.13/pls-aarch64-unknown-linux-musl.zip"
+      sha256 "91910c51ce7932e74e508f119b362d06373ff9c2d2a3cf504ff50d23b02fdd92"
     else
-      url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.12/pls-x86_64-unknown-linux-musl.zip"
-      sha256 "58864ab4864a6b1e6f75a491ecaa150558bb550f9d403b0f689cc82a00ed3740"
+      url "https://github.com/pls-rs/pls/releases/download/v0.0.1-beta.13/pls-x86_64-unknown-linux-musl.zip"
+      sha256 "331c370c8484a284c4b36aa3087108dc635c250b346c45f4894d74ed5e4e30f7"
     end
   end
 
