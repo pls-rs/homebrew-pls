@@ -1,4 +1,4 @@
-# <img src="https://raw.githubusercontent.com/pls-rs/.github/main/profile/readme_assets/logo.png" height="40" width="40" align="left"> pls
+# <img src="https://github.com/pls-rs/.github/raw/main/profile/readme_assets/logo.png" alt="" align="left" width="40" height="40"> pls
 
 [`pls`](https://pls.cli.rs/) is a prettier and powerful `ls(1)` for the pros.
 
